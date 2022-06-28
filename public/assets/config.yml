@@ -57,10 +57,10 @@ links:
     url: "https://blog.lkwplus.com/"
     target: "_blank" # optional html tag target attribute
   - name: "My GitHub"
-    icon: "fas fa-github"
+    icon: "fab fa-github"
     url: "https://github.com/synthpop123/"
     target: "_blank" # optional html tag target attribute
-  - name: "Edit config"
+  - name: "Edit Config"
     icon: "fas fa-edit"
     url: "https://github.com/synthpop123/homer/edit/main/public/assets/config.yml"
     target: "_blank" # optional html tag target attribute
@@ -70,8 +70,14 @@ links:
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
   - name: "Media"
-    icon: "fas fa-camera-movie"
+    icon: "fas fa-popcorn"
     items:
+      - name: "Whatbox"
+        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/whatbox.png"
+        subtitle: "An app hosting platform"
+        tag: "web"
+        url: "https://whatbox.ca/manage"
+        target: "_blank" # optional html a tag target attribute
       - name: "Plex"
         logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/plex.png"
         subtitle: "Stream movies & TV shows"
@@ -95,12 +101,6 @@ services:
         subtitle: "Automated TV collection manager"
         tag: "app"
         url: "http://elara.whatbox.ca:10719/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Prowlarr"
-        logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/prowlarr.png"
-        subtitle: "An Indexer manager/proxy"
-        tag: "app"
-        url: "http://elara.whatbox.ca:14039/"
         target: "_blank" # optional html a tag target attribute
       - name: "Overseerr"
         logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/overseerr.png"
@@ -129,8 +129,14 @@ services:
         tag: "app"
         url: "http://elara.whatbox.ca:31365/sabnzbd/"
         target: "_blank" # optional html a tag target attribute
+      - name: "pyLoad"
+        logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/pyload.png"
+        subtitle: "A download manager for some websites"
+        tag: "app"
+        url: "http://elara.whatbox.ca:12389/dashboard"
+        target: "_blank" # optional html a tag target attribute
       - name: "The Lounge"
-        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/thelounge.png"
+        logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/thelounge.png"
         subtitle: "A web-based IRC client"
         tag: "app"
         url: "http://elara.whatbox.ca:11995/#/"
@@ -141,15 +147,15 @@ services:
         tag: "app"
         url: "http://elara.whatbox.ca:18484/home?path=%2F"
         target: "_blank" # optional html a tag target attribute
-      - name: "Whatbox"
-        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/whatbox.png"
-        subtitle: "An app hosting platform"
-        tag: "web"
-        url: "https://whatbox.ca/manage"
-        target: "_blank" # optional html a tag target attribute
-  - name: "Tracker"
-    icon: "fas fa-seeding"
+  - name: "Indexer"
+    icon: "fas fa-seedling"
     items:
+      - name: "Prowlarr"
+        logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/prowlarr.png"
+        subtitle: "An Indexer manager/proxy"
+        tag: "app"
+        url: "http://elara.whatbox.ca:14039/"
+        target: "_blank" # optional html a tag target attribute
       - name: "PassThePopcorn"
         logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/passthepopcorn.png"
         subtitle: "The greatest movie tracker"
@@ -157,32 +163,26 @@ services:
         url: "https://passthepopcorn.me/index.php"
         target: "_blank" # optional html a tag target attribute
       - name: "HDBits"
-        logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/deluge.png"
+        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/hdbits.png"
         subtitle: "The greatest HD tracker"
         tag: "web"
         url: "https://hdbits.org/browse.php"
         target: "_blank" # optional html a tag target attribute
-      - name: "Readacted"
-        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/thelounge.png"
-        subtitle: "The greatest music tracker"
-        tag: "web"
-        url: "https://redacted.ch/index.php"
-        target: "_blank" # optional html a tag target attribute
       - name: "BeyondHD"
-        logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/sabnzbd.png"
+        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/beyondhd.me.png"
         subtitle: "Great HD tracker with high quality standards"
         tag: "web"
         url: "https://beyond-hd.me/torrents"
         target: "_blank" # optional html a tag target attribute
       - name: "PTerClub"
-        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/cloudreve.png"
+        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/pter.png"
         subtitle: "Great Chinese general tracker"
         tag: "web"
         url: "https://pterclub.com/forums.php"
         target: "_blank" # optional html a tag target attribute
-      - name: "Whatbox"
-        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/whatbox.png"
-        subtitle: "An app hosting platform"
+      - name: "Cinemageddon"
+        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/cinemageddon.png"
+        subtitle: "Tracker dedicated in old & rare movies"
         tag: "web"
-        url: "https://whatbox.ca/manage"
+        url: "https://cinemageddon.net/browse.php"
         target: "_blank" # optional html a tag target attribute
