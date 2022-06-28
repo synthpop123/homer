@@ -46,13 +46,13 @@ colors:
     link-hover: "#ffdd57"
 
 message:
-  style: "is-success" # See https://bulma.io/documentation/components/message/#colors for styling options.
+  style: "is-link" # See https://bulma.io/documentation/components/message/#colors for styling options.
   url: https://v1.jinrishici.com/all
-  icon: "far fa-grin"
+  icon: "fas fa-bolt"
   mapping:
     title: 'origin'
     content: 'content'
-  refreshInterval: 10000
+  refreshInterval: 100000
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
