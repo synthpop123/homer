@@ -45,6 +45,15 @@ colors:
     link: "#3273dc"
     link-hover: "#ffdd57"
 
+message:
+  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
+  icon: "far fa-grin"
+  url: https://api.chucknorris.io/jokes/random
+  mapping:
+    title: 'id'
+    content: 'value'
+  refreshInterval: 10000
+
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
@@ -70,7 +79,7 @@ links:
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
   - name: "Media"
-    icon: "fas fa-popcorn"
+    icon: "fas fa-film"
     items:
       - name: "Whatbox"
         logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/whatbox.png"
@@ -174,15 +183,15 @@ services:
         tag: "web"
         url: "https://beyond-hd.me/torrents"
         target: "_blank" # optional html a tag target attribute
-      - name: "PTerClub"
-        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/pter.png"
-        subtitle: "Great Chinese general tracker"
-        tag: "web"
-        url: "https://pterclub.com/forums.php"
-        target: "_blank" # optional html a tag target attribute
       - name: "Cinemageddon"
         logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/cinemageddon.png"
         subtitle: "Tracker dedicated in old & rare movies"
         tag: "web"
         url: "https://cinemageddon.net/browse.php"
+        target: "_blank" # optional html a tag target attribute
+      - name: "PTerClub"
+        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/pter.png"
+        subtitle: "Great Chinese general tracker"
+        tag: "web"
+        url: "https://pterclub.com/forums.php"
         target: "_blank" # optional html a tag target attribute
