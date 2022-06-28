@@ -3,7 +3,7 @@
 # See https://fontawesome.com/v5/search for icons options
 
 title: "Dashboard"
-subtitle: ""
+subtitle: "Everyday is a brand new day!"
 logo: "logo.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
@@ -13,7 +13,7 @@ footer: false
 # Set the default layout and color scheme
 defaults:
   layout: columns # Either 'columns', or 'list'
-  colorTheme: light # One of 'auto', 'light', or 'dark'
+  colorTheme: auto # One of 'auto', 'light', or 'dark'
 
 # Optional theme customization
 theme: default
@@ -48,8 +48,20 @@ colors:
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
+  - name: "My Homepage"
+    icon: "fas fa-home"
+    url: "https://www.lkwplus.com/"
+    target: "_blank" # optional html tag target attribute
+  - name: "My Blog"
+    icon: "fas fa-blog"
+    url: "https://blog.lkwplus.com/"
+    target: "_blank" # optional html tag target attribute
+  - name: "My GitHub"
+    icon: "fas fa-github"
+    url: "https://github.com/synthpop123/"
+    target: "_blank" # optional html tag target attribute
   - name: "Edit config"
-    icon: "fab fa-edit"
+    icon: "fas fa-edit"
     url: "https://github.com/synthpop123/homer/edit/main/public/assets/config.yml"
     target: "_blank" # optional html tag target attribute
 
@@ -58,7 +70,7 @@ links:
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
   - name: "Media"
-    icon: "fas fa-popcorn"
+    icon: "fas fa-camera-movie"
     items:
       - name: "Plex"
         logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/plex.png"
@@ -85,8 +97,8 @@ services:
         url: "http://elara.whatbox.ca:10719/"
         target: "_blank" # optional html a tag target attribute
       - name: "Prowlarr"
-        logo: "https://github.com/NX211/homer-icons/blob/master/png/prowlarr.png"
-        subtitle: "Indexer manager/proxy"
+        logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/prowlarr.png"
+        subtitle: "An Indexer manager/proxy"
         tag: "app"
         url: "http://elara.whatbox.ca:14039/"
         target: "_blank" # optional html a tag target attribute
@@ -113,7 +125,7 @@ services:
         target: "_blank" # optional html a tag target attribute
       - name: "SABnzbd"
         logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/sabnzbd.png"
-        subtitle: "Usenet newsreader and downloader"
+        subtitle: "A Usenet newsreader and downloader"
         tag: "app"
         url: "http://elara.whatbox.ca:31365/sabnzbd/"
         target: "_blank" # optional html a tag target attribute
@@ -125,9 +137,48 @@ services:
         target: "_blank" # optional html a tag target attribute
       - name: "Cloudreve"
         logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/cloudreve.png"
-        subtitle: "Self-hosted file management and sharing system"
+        subtitle: "Self-hosted file management system"
         tag: "app"
         url: "http://elara.whatbox.ca:18484/home?path=%2F"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Whatbox"
+        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/whatbox.png"
+        subtitle: "An app hosting platform"
+        tag: "web"
+        url: "https://whatbox.ca/manage"
+        target: "_blank" # optional html a tag target attribute
+  - name: "Tracker"
+    icon: "fas fa-seeding"
+    items:
+      - name: "PassThePopcorn"
+        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/passthepopcorn.png"
+        subtitle: "The greatest movie tracker"
+        tag: "web"
+        url: "https://passthepopcorn.me/index.php"
+        target: "_blank" # optional html a tag target attribute
+      - name: "HDBits"
+        logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/deluge.png"
+        subtitle: "The greatest HD tracker"
+        tag: "web"
+        url: "https://hdbits.org/browse.php"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Readacted"
+        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/thelounge.png"
+        subtitle: "The greatest music tracker"
+        tag: "web"
+        url: "https://redacted.ch/index.php"
+        target: "_blank" # optional html a tag target attribute
+      - name: "BeyondHD"
+        logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/sabnzbd.png"
+        subtitle: "Great HD tracker with high quality standards"
+        tag: "web"
+        url: "https://beyond-hd.me/torrents"
+        target: "_blank" # optional html a tag target attribute
+      - name: "PTerClub"
+        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/cloudreve.png"
+        subtitle: "Great Chinese general tracker"
+        tag: "web"
+        url: "https://pterclub.com/forums.php"
         target: "_blank" # optional html a tag target attribute
       - name: "Whatbox"
         logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/whatbox.png"
