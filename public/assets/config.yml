@@ -165,6 +165,12 @@ services:
         tag: "app"
         url: "http://elara.whatbox.ca:14039/"
         target: "_blank" # optional html a tag target attribute
+      - name: "autobrr"
+        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/autobrr.png"
+        subtitle: "Monitor IRC to get releases"
+        tag: "app"
+        url: "http://elara.whatbox.ca:16267/"
+        target: "_blank" # optional html a tag target attribute
       - name: "PassThePopcorn"
         logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/passthepopcorn.png"
         subtitle: "The greatest movie tracker"
@@ -177,21 +183,15 @@ services:
         tag: "web"
         url: "https://hdbits.org/browse.php"
         target: "_blank" # optional html a tag target attribute
-      - name: "BeyondHD"
-        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/beyondhd.me.png"
-        subtitle: "Great HD tracker with high quality standards"
-        tag: "web"
-        url: "https://beyond-hd.me/torrents"
-        target: "_blank" # optional html a tag target attribute
       - name: "Cinemageddon"
         logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/cinemageddon.png"
         subtitle: "Tracker dedicated in old & rare movies"
         tag: "web"
         url: "https://cinemageddon.net/browse.php"
         target: "_blank" # optional html a tag target attribute
-      - name: "PTerClub"
-        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/pter.png"
-        subtitle: "Great Chinese general tracker"
+      - name: "BeyondHD"
+        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/beyondhd.me.png"
+        subtitle: "Great HD tracker with high quality standards"
         tag: "web"
-        url: "https://pterclub.com/forums.php"
+        url: "https://beyond-hd.me/torrents"
         target: "_blank" # optional html a tag target attribute
