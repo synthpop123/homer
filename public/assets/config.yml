@@ -138,17 +138,17 @@ services:
         tag: "app"
         url: "http://elara.whatbox.ca:31365/sabnzbd/"
         target: "_blank" # optional html a tag target attribute
-      - name: "pyLoad"
-        logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/pyload.png"
-        subtitle: "A download manager for some websites"
-        tag: "app"
-        url: "http://elara.whatbox.ca:12389/dashboard"
-        target: "_blank" # optional html a tag target attribute
       - name: "The Lounge"
         logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/thelounge.png"
         subtitle: "A web-based IRC client"
         tag: "app"
         url: "http://elara.whatbox.ca:11995/#/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "autobrr"
+        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/autobrr.png"
+        subtitle: "Monitor IRC to get releases"
+        tag: "app"
+        url: "http://elara.whatbox.ca:16267/"
         target: "_blank" # optional html a tag target attribute
       - name: "Cloudreve"
         logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/cloudreve.png"
@@ -165,11 +165,11 @@ services:
         tag: "app"
         url: "http://elara.whatbox.ca:14039/"
         target: "_blank" # optional html a tag target attribute
-      - name: "autobrr"
-        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/autobrr.png"
-        subtitle: "Monitor IRC to get releases"
+      - name: "NZBHydra2"
+        logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/nzbhydra.png"
+        subtitle: "Usenet meta search manager"
         tag: "app"
-        url: "http://elara.whatbox.ca:16267/"
+        url: "http://elara.whatbox.ca:13298/"
         target: "_blank" # optional html a tag target attribute
       - name: "PassThePopcorn"
         logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/passthepopcorn.png"
