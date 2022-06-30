@@ -151,7 +151,7 @@ services:
         url: "http://elara.whatbox.ca:16267/"
         target: "_blank" # optional html a tag target attribute
       - name: "Cloudreve"
-        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/cloudreve.png"
+        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/cloudreve-modified.png"
         subtitle: "Self-hosted file management system"
         tag: "app"
         url: "http://elara.whatbox.ca:18484/home?path=%2F"
@@ -185,7 +185,7 @@ services:
         target: "_blank" # optional html a tag target attribute
       - name: "Cinemageddon"
         logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/cinemageddon.png"
-        subtitle: "Tracker dedicated in old & rare movies"
+        subtitle: "Tracker specialized in old & rare movies"
         tag: "web"
         url: "https://cinemageddon.net/browse.php"
         target: "_blank" # optional html a tag target attribute
