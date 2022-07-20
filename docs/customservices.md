@@ -19,6 +19,8 @@ within Homer:
 + [Emby / Jellyfin](#emby--jellyfin)
 + [Uptime Kuma](#uptime-kuma)
 + [Tautulli](#tautulli)
++ [Mealie](#mealie)
++ [Healthchecks](#healthchecks)
 
 If you experiencing any issue, please have a look to the [troubleshooting](troubleshooting.md) page.
 
@@ -223,3 +225,21 @@ endpoint pointing to Tautulli!
   type: "Tautulli"
   apikey: "MY-SUPER-SECRET-API-KEY"
 ```
+
+## Mealie
+
+First off make sure to remove an existing `subtitle` as it will take precedence if set. 
+Setting `type: "Mealie"` will then show the number of recipes Mealie is keeping organized or the planned meal for today if one is planned. You will have to set an API key in the field `apikey` which can be created in your Mealie installation.
+
+## Healthchecks
+
+This service displays information about the configured status checks from the Healthchecks application.
+Two lines are needed in the config.yml :
+
+```yaml
+  type: "Healthchecks"
+  apikey: "01234deb70424befb1f4ef6a23456789"
+```
+
+The url must be the root url of the Healthchecks application.
+The Healthchecks API key can be found in Settings > API Access > API key (read-only). The key is needed to access Healthchecks API.
