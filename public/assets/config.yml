@@ -130,7 +130,7 @@ services:
         logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/qbittorrent.png"
         subtitle: "An advanced BitTorrent client"
         tag: "app"
-        url: "https://elara.whatbox.ca:10286/"
+        url: "http://elara.whatbox.ca:10286/"
         target: "_blank" # optional html a tag target attribute
       - name: "SABnzbd"
         logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/sabnzbd.png"
