@@ -133,7 +133,7 @@ services:
         url: "http://elara.whatbox.ca:10286/"
         target: "_blank" # optional html a tag target attribute
       - name: "SABnzbd"
-        logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/sabnzbd.png"
+        logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/sabnzbd-4-150x150.png"
         subtitle: "A Usenet newsreader and downloader"
         tag: "app"
         url: "http://elara.whatbox.ca:31365/sabnzbd/"
