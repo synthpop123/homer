@@ -148,7 +148,7 @@ services:
         logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/autobrr.png"
         subtitle: "Monitor IRC to get releases"
         tag: "app"
-        url: "http://elara.whatbox.ca:16267/"
+        url: "http://elara.whatbox.ca:11416/"
         target: "_blank" # optional html a tag target attribute
       - name: "Cloudreve"
         logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/cloudreve-modified.png"
