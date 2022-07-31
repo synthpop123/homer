@@ -126,11 +126,11 @@ services:
         tag: "app"
         url: "https://elara.whatbox.ca/webui/"
         target: "_blank" # optional html a tag target attribute
-      - name: "qBittorrent"
-        logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/qbittorrent.png"
-        subtitle: "An advanced BitTorrent client"
+      - name: "Deluge"
+        logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/deluge.png"
+        subtitle: "A full-featured client with frontends"
         tag: "app"
-        url: "http://elara.whatbox.ca:10286/"
+        url: "http://elara.whatbox.ca:28038/"
         target: "_blank" # optional html a tag target attribute
       - name: "SABnzbd"
         logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/sabnzbd-4-150x150.png"
