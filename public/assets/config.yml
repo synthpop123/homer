@@ -126,11 +126,11 @@ services:
         tag: "app"
         url: "https://elara.whatbox.ca/webui/"
         target: "_blank" # optional html a tag target attribute
-      - name: "Deluge"
-        logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/deluge.png"
-        subtitle: "A full-featured client with frontends"
+      - name: "Flood"
+        logo: "https://cdn.jsdelivr.net/gh/NX211/homer-icons@master/png/flood.png"
+        subtitle: "Alternative Deluge web interface using Node.js"
         tag: "app"
-        url: "https://deluge.lkw123.box.ca/"
+        url: "https://flood.lkw123.box.ca/overview/"
         target: "_blank" # optional html a tag target attribute
       - name: "SABnzbd"
         logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/sabnzbd-4-150x150.png"
