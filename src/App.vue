@@ -59,10 +59,6 @@
 
     <section id="main-section" class="section">
       <div v-cloak class="container">
-        <ConnectivityChecker
-          v-if="config.connectivityCheck"
-          @network-status-update="offline = $event"
-        />
 
         <GetStarted v-if="configurationNeeded" />
 
@@ -145,7 +141,6 @@ import merge from "lodash.merge";
 
 import Navbar from "./components/Navbar.vue";
 import GetStarted from "./components/GetStarted.vue";
-import ConnectivityChecker from "./components/ConnectivityChecker.vue";
 import Service from "./components/Service.vue";
 import Message from "./components/Message.vue";
 import SearchInput from "./components/SearchInput.vue";
@@ -160,7 +155,6 @@ export default {
   components: {
     Navbar,
     GetStarted,
-    ConnectivityChecker,
     Service,
     Message,
     SearchInput,
