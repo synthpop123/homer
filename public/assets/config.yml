@@ -133,8 +133,8 @@ services:
         url: "https://sabnzbd.lkw123.box.ca/"
         target: "_blank" # optional html a tag target attribute
       - name: "NZBGet"
-        logo: "https://cdn.jsdelivr.net/gh/walkxcode/Dashboard-Icons@raw/main/png/nzbget.png"
-        subtitle: "A lightweight Usenet downloader written in C++"
+        logo: "https://cdn.jsdelivr.net/gh/walkxcode/Dashboard-Icons@main/png/nzbget.png"
+        subtitle: "A lightweight Usenet downloader"
         tag: "app"
         url: "https://nzbget.lkw123.box.ca/"
         target: "_blank" # optional html a tag target attribute
