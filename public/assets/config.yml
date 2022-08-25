@@ -132,11 +132,11 @@ services:
         tag: "app"
         url: "https://sabnzbd.lkw123.box.ca/"
         target: "_blank" # optional html a tag target attribute
-      - name: "NZBGet"
-        logo: "https://cdn.jsdelivr.net/gh/walkxcode/Dashboard-Icons@main/png/nzbget.png"
-        subtitle: "A lightweight Usenet downloader"
+      - name: "Nextcloud"
+        logo: "https://cdn.jsdelivr.net/gh/walkxcode/Dashboard-Icons@main/png/nextcloud.png"
+        subtitle: "A powerful cloud server"
         tag: "app"
-        url: "https://nzbget.lkw123.box.ca/"
+        url: "https://nextcloud.lkw123.box.ca/app/dashboard"
         target: "_blank" # optional html a tag target attribute
       - name: "Cloudreve"
         logo: "https://cdn.jsdelivr.net/gh/synthpop123/imagebed@master/img/cloudreve-modified.png"
